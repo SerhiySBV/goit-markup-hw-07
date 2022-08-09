@@ -1,10 +1,11 @@
 .nav {
   margin-right: auto;
-}
-.nav__list {
-  display: flex;
-  gap: 50px;
-  align-items: center;
+
+  &__list {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
 }
 .nav__link {
   position: relative;
@@ -15,14 +16,20 @@
   color: #212121;
   display: block;
   padding: 32px 0;
-  transition: color var(--animation);
-
-  &--current {
-    color: var(--accent-txt-cl);
-  }
+  transition: color $animation;
 
   &:hover,
   &:focus {
+    color: var(--accent-txt-cl);
+  }
+
+  &--current {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.02em;
+
+    color: #2196f3;
     color: var(--accent-txt-cl);
   }
 
@@ -35,13 +42,5 @@
     height: 4px;
     background-color: var(--accent-txt-cl);
     border-radius: 2px;
-  }
-  &--current {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14em;
-    letter-spacing: 0.02em;
-
-    color: #2196f3;
   }
 }

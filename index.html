@@ -24,7 +24,7 @@
     />
     <!-- Personal styles -->
     <link rel="stylesheet" href="./css/main.min.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
     <title lang="en">WebStudio</title>
   </head>
 
@@ -38,7 +38,7 @@
         >
         <nav class="nav">
           <ul class="list nav__list">
-            <li class="nav__link">
+            <li class="nav-curent">
               <a class="link nav__link nav__link--current" href="./index.html">Студія</a>
             </li>
             <li><a class="link nav__link" href="./portfolio.html">Портфоліо</a></li>
@@ -73,7 +73,7 @@
     <main>
       <!-- Hero -->
 
-      <section class="overlay main">
+      <section class="main">
         <div class="conteiner">
           <h1 class="main__text">Ефективні рішення для вашого бізнесу</h1>
           <button data-modal-open class="btn btn-mode-blue" type="button">Замовити послугу</button>
@@ -82,47 +82,47 @@
 
           <div data-modal class="backdrop is-hidden">
             <div class="modal">
-              <button data-modal-close class="modal-btn" type="button">
-                <svg class="modal-btn__close" width="18" height="18">
-                  <use class="modal-btn__icon" href="./images/icons.svg#icon-close"></use>
+              <button data-modal-close class="form-btn" type="button">
+                <svg class="form-btn__close" width="18" height="18">
+                  <use class="form-btn__icon" href="./images/icons.svg#icon-close"></use>
                 </svg>
               </button>
 
               <!-- Form -->
 
-              <form class="form" name="form">
+              <form name="form">
                 <strong class="form__title">Залиште свої дані, ми вам передзвонимо</strong>
-                <div class="form__box">
+                <div class="form">
                   <label class="form__group">
                     <span class="form__text">Ім'я</span>
                     <input class="form__input" type="text" name="user-name" />
-                    <svg class="modal-btn-icon" width="18" height="18">
+                    <svg class="form-btn-icon" width="18" height="18">
                       <use href="./images/icons.svg#person-black"></use>
                     </svg>
                   </label>
                 </div>
 
-                <div class="form__box">
+                <div class="form">
                   <label class="form__group">
                     <span class="form__text">Телефон</span>
                     <input class="form__input" type="tel" name="user-tel" />
-                    <svg class="modal-btn-icon" width="18" height="18">
+                    <svg class="form-btn-icon" width="18" height="18">
                       <use href="./images/icons.svg#phone-black"></use>
                     </svg>
                   </label>
                 </div>
 
-                <div class="form__box">
+                <div class="form">
                   <label class="form__group">
                     <span class="form__text">Пошта</span>
                     <input class="form__input" type="email" name="user-mail" />
-                    <svg class="modal-btn-icon" width="18" height="18">
+                    <svg class="form-btn-icon" width="18" height="18">
                       <use href="./images/icons.svg#email-black"></use>
                     </svg>
                   </label>
                 </div>
 
-                <div class="form__box">
+                <div class="form">
                   <label class="form__group">
                     <span class="form__text">Коментар</span>
                     <textarea
@@ -209,7 +209,7 @@
 
       <!--Teem-->
 
-      <section class="teem-section">
+      <section teem>
         <div class="conteiner">
           <h2 class="teem-title">Наша команда</h2>
           <ul class="list teem-list">
@@ -221,9 +221,9 @@
                 width="270"
                 height="260"
               />
-              <div class="teem-names">
-                <h3 lang="ru" class="teem-name-title">Игорь Демьяненко</h3>
-                <p lang="en" class="teem-text">Product Designe</p>
+              <div class="social">
+                <h3 lang="ru" class="social-title">Игорь Демьяненко</h3>
+                <p lang="en" class="social-text">Product Designe</p>
                 <ul class="list social-list">
                   <li class="social-item">
                     <a class="social-link link" href="" target="_blank" rel="noopener noreferrer">
@@ -264,9 +264,9 @@
                 width="270"
                 height="260"
               />
-              <div class="teem-names">
-                <h3 lang="ru" class="teem-name-title">Ольга Репина</h3>
-                <p lang="en" class="teem-text">Frontend Develope</p>
+              <div class="social">
+                <h3 lang="ru" class="social-title">Ольга Репина</h3>
+                <p lang="en" class="social-text">Frontend Develope</p>
                 <ul class="list social-list">
                   <li class="social-item">
                     <a class="social-link link" href="" target="_blank" rel="noopener noreferrer">
@@ -307,9 +307,9 @@
                 width="270"
                 height="260"
               />
-              <div class="teem-names">
-                <h3 lang="ru" class="teem-name-title">Николай Тарасов</h3>
-                <p lang="en" class="teem-text">Marketing</p>
+              <div class="social">
+                <h3 lang="ru" class="social-title">Николай Тарасов</h3>
+                <p lang="en" class="social-text">Marketing</p>
                 <ul class="list social-list">
                   <li class="social-item">
                     <a class="social-link link" href="" target="_blank" rel="noopener noreferrer">
@@ -350,9 +350,9 @@
                 width="270"
                 height="260"
               />
-              <div class="teem-names">
-                <h3 lang="ru" class="teem-name-title">Михаил Ермаков</h3>
-                <p lang="en" class="teem-text">UI Designer</p>
+              <div class="social">
+                <h3 lang="ru" class="social-title">Михаил Ермаков</h3>
+                <p lang="en" class="social-text">UI Designer</p>
                 <ul class="list social-list">
                   <li class="social-item">
                     <a class="social-link link" href="" target="_blank" rel="noopener noreferrer">
