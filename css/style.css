@@ -379,7 +379,7 @@
 /* Footer */
 
 /* Conect */
-.footer-conect {
+/* .footer-conect {
   margin-right: 93px;
 }
 .footer-conect-text {
@@ -427,7 +427,7 @@
 /* Text decoration */
 
 /*Footer logo */
-.footer {
+/*.footer {
   background: #2f303a;
 }
 .footer-logo {
@@ -452,7 +452,7 @@
 }
 /* Adress */
 
-.footer-text {
+/*.footer-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71em;
@@ -460,9 +460,7 @@
 
   color: #ffffff;
 }
-.address {
-  font-style: normal;
-}
+
 .footer-link,
 .footer-tel {
   font-weight: 400;
@@ -474,7 +472,7 @@
   transition: color $animation;
 }
 /* Boxes decoration */
-.footer {
+/*.footer {
   padding: 60px 0;
 }
 .footer-logo {
@@ -489,11 +487,11 @@
 .footer-link {
   display: block;
   margin-bottom: 9px;
-}
+} */
 
 /* Our client */
 
-.clients {
+/* .clients {
   padding: 94px 0;
 }
 
@@ -534,7 +532,7 @@
 .clients-link:hover {
   border-color: var(--accent-txt-cl);
   color: var(--accent-txt-cl);
-}
+} */
 
 /* Portfolio */
 
@@ -545,7 +543,10 @@
   justify-content: center;
   margin-bottom: 50px;
 }
-
+.portfolio-btn-current {
+  background-color: #2196f3;
+  color: var(--main-white);
+}
 /* Cards */
 
 /* Text specification */
@@ -823,20 +824,17 @@
   border-color: transparent;
 } */
 
-.footer-link:hover,
+/* .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-txt-cl);
 }
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--accent-txt-cl);
-}
-.portfolio-btn-current {
-  background-color: #2196f3;
-  color: var(--main-white);
-}
+} */
+
 /* Footer form */
-.subscribe__title {
+/* .subscribe__title {
   display: block;
   font-weight: 700;
   font-size: 14px;
@@ -879,7 +877,7 @@
 
 /* Subscribe btn */
 
-.btn-mode-blue--subscribe {
+/*.btn-mode-blue--subscribe {
   position: absolute;
   width: 200px;
   height: 50px;
@@ -902,4 +900,4 @@
 .subscribe-form__input:focus {
   border-color: var(--accent-txt-cl);
   outline-color: var(--accent-txt-cl);
-}
+} */
