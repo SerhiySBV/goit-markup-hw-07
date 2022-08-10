@@ -812,6 +812,10 @@ img {
           justify-content: center;
   gap: 10px;
 }
+.social-icon {
+  fill: currentColor;
+}
+
 .social-link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -834,9 +838,6 @@ img {
   border-radius: 50%;
   background-color: var(--accent-txt-cl);
   color: var(--main-white);
-}
-.social-icon {
-  fill: currentColor;
 }
 
 .clients {
@@ -867,6 +868,7 @@ img {
 .clients-icon {
   fill: currentColor;
 }
+
 .clients-link {
   display: -webkit-box;
   display: -ms-flexbox;

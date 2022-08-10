@@ -459,7 +459,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.teem-name-title {
+.social-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19em;
@@ -486,10 +486,10 @@ img {
 .teem-img {
   text-align: center;
 }
-.teem-names {
+.social {
   padding: 30px 10px;
 }
-.teem-name-title {
+.social-title {
   margin-bottom: 10px;
   text-align: center;
 }
