@@ -1006,6 +1006,10 @@ img {
   color: #ffffff;
 }
 
+.address {
+  font-style: normal;
+}
+
 .portfolio-btn {
   display: -webkit-box;
   display: -ms-flexbox;
