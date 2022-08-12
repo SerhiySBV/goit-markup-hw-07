@@ -945,12 +945,8 @@ img {
   margin-bottom: 20px;
 }
 
-.footer-link {
-  display: block;
-  margin-bottom: 9px;
-}
 .footer-link,
-.footer-link .footer-tel {
+.footer-tel {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71em;
@@ -958,6 +954,11 @@ img {
   color: rgba(255, 255, 255, 0.6);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link {
+  display: block;
+  margin-bottom: 9px;
 }
 .footer-link-icon {
   display: -webkit-box;
